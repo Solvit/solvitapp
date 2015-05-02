@@ -1,5 +1,7 @@
 #Solvit iOS Application
 
+[! Velma](http://en.wikipedia.org/wiki/Velma_Dinkley#/media/File:Velma_Dinkley.png)
+
 :clap::clap::clap:
 
 ##Objects
