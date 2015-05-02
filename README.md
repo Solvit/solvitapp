@@ -1,6 +1,8 @@
 #Solvit iOS Application
 
-![Velma](http://en.wikipedia.org/wiki/Velma_Dinkley#/media/File:Velma_Dinkley.png)
+![Velma](http://upload.wikimedia.org/wikipedia/en/9/9d/Velma_Dinkley.png)
+
+Current version: Velma
 
 :clap::clap::clap:
 
