@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B60214661AF51BB70097A28D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B60214651AF51BB70097A28D /* main.m */; };
+		B60214691AF51BB70097A28D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B60214681AF51BB70097A28D /* AppDelegate.m */; };
+		B602146C1AF51BB70097A28D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B602146B1AF51BB70097A28D /* ViewController.m */; };
+		B602146F1AF51BB70097A28D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B602146D1AF51BB70097A28D /* Main.storyboard */; };
+		B60214711AF51BB70097A28D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60214701AF51BB70097A28D /* Images.xcassets */; };
+		B60214741AF51BB70097A28D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60214721AF51BB70097A28D /* LaunchScreen.xib */; };
+		B60214801AF51BB70097A28D /* SolvitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B602147F1AF51BB70097A28D /* SolvitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B602147A1AF51BB70097A28D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B60214581AF51BB70097A28D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B602145F1AF51BB70097A28D;
+			remoteInfo = Solvit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B60214601AF51BB70097A28D /* Solvit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solvit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60214641AF51BB70097A28D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B60214651AF51BB70097A28D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B60214671AF51BB70097A28D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B60214681AF51BB70097A28D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B602146A1AF51BB70097A28D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B602146B1AF51BB70097A28D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B602146E1AF51BB70097A28D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B60214701AF51BB70097A28D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B60214731AF51BB70097A28D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B60214791AF51BB70097A28D /* SolvitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolvitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B602147E1AF51BB70097A28D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B602147F1AF51BB70097A28D /* SolvitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolvitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B602145D1AF51BB70097A28D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60214761AF51BB70097A28D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B60214571AF51BB70097A28D = {
+			isa = PBXGroup;
+			children = (
+				B60214621AF51BB70097A28D /* Solvit */,
+				B602147C1AF51BB70097A28D /* SolvitTests */,
+				B60214611AF51BB70097A28D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B60214611AF51BB70097A28D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B60214601AF51BB70097A28D /* Solvit.app */,
+				B60214791AF51BB70097A28D /* SolvitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B60214621AF51BB70097A28D /* Solvit */ = {
+			isa = PBXGroup;
+			children = (
+				B60214671AF51BB70097A28D /* AppDelegate.h */,
+				B60214681AF51BB70097A28D /* AppDelegate.m */,
+				B602146A1AF51BB70097A28D /* ViewController.h */,
+				B602146B1AF51BB70097A28D /* ViewController.m */,
+				B602146D1AF51BB70097A28D /* Main.storyboard */,
+				B60214701AF51BB70097A28D /* Images.xcassets */,
+				B60214721AF51BB70097A28D /* LaunchScreen.xib */,
+				B60214631AF51BB70097A28D /* Supporting Files */,
+			);
+			path = Solvit;
+			sourceTree = "<group>";
+		};
+		B60214631AF51BB70097A28D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B60214641AF51BB70097A28D /* Info.plist */,
+				B60214651AF51BB70097A28D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B602147C1AF51BB70097A28D /* SolvitTests */ = {
+			isa = PBXGroup;
+			children = (
+				B602147F1AF51BB70097A28D /* SolvitTests.m */,
+				B602147D1AF51BB70097A28D /* Supporting Files */,
+			);
+			path = SolvitTests;
+			sourceTree = "<group>";
+		};
+		B602147D1AF51BB70097A28D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B602147E1AF51BB70097A28D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B602145F1AF51BB70097A28D /* Solvit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60214831AF51BB70097A28D /* Build configuration list for PBXNativeTarget "Solvit" */;
+			buildPhases = (
+				B602145C1AF51BB70097A28D /* Sources */,
+				B602145D1AF51BB70097A28D /* Frameworks */,
+				B602145E1AF51BB70097A28D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Solvit;
+			productName = Solvit;
+			productReference = B60214601AF51BB70097A28D /* Solvit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B60214781AF51BB70097A28D /* SolvitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60214861AF51BB70097A28D /* Build configuration list for PBXNativeTarget "SolvitTests" */;
+			buildPhases = (
+				B60214751AF51BB70097A28D /* Sources */,
+				B60214761AF51BB70097A28D /* Frameworks */,
+				B60214771AF51BB70097A28D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B602147B1AF51BB70097A28D /* PBXTargetDependency */,
+			);
+			name = SolvitTests;
+			productName = SolvitTests;
+			productReference = B60214791AF51BB70097A28D /* SolvitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B60214581AF51BB70097A28D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Solvit;
+				TargetAttributes = {
+					B602145F1AF51BB70097A28D = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					B60214781AF51BB70097A28D = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = B602145F1AF51BB70097A28D;
+					};
+				};
+			};
+			buildConfigurationList = B602145B1AF51BB70097A28D /* Build configuration list for PBXProject "Solvit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B60214571AF51BB70097A28D;
+			productRefGroup = B60214611AF51BB70097A28D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B602145F1AF51BB70097A28D /* Solvit */,
+				B60214781AF51BB70097A28D /* SolvitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B602145E1AF51BB70097A28D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B602146F1AF51BB70097A28D /* Main.storyboard in Resources */,
+				B60214741AF51BB70097A28D /* LaunchScreen.xib in Resources */,
+				B60214711AF51BB70097A28D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60214771AF51BB70097A28D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B602145C1AF51BB70097A28D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B602146C1AF51BB70097A28D /* ViewController.m in Sources */,
+				B60214691AF51BB70097A28D /* AppDelegate.m in Sources */,
+				B60214661AF51BB70097A28D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60214751AF51BB70097A28D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60214801AF51BB70097A28D /* SolvitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B602147B1AF51BB70097A28D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B602145F1AF51BB70097A28D /* Solvit */;
+			targetProxy = B602147A1AF51BB70097A28D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B602146D1AF51BB70097A28D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B602146E1AF51BB70097A28D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B60214721AF51BB70097A28D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B60214731AF51BB70097A28D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B60214811AF51BB70097A28D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B60214821AF51BB70097A28D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B60214841AF51BB70097A28D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Solvit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B60214851AF51BB70097A28D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Solvit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B60214871AF51BB70097A28D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SolvitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solvit.app/Solvit";
+			};
+			name = Debug;
+		};
+		B60214881AF51BB70097A28D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SolvitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solvit.app/Solvit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B602145B1AF51BB70097A28D /* Build configuration list for PBXProject "Solvit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60214811AF51BB70097A28D /* Debug */,
+				B60214821AF51BB70097A28D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B60214831AF51BB70097A28D /* Build configuration list for PBXNativeTarget "Solvit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60214841AF51BB70097A28D /* Debug */,
+				B60214851AF51BB70097A28D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B60214861AF51BB70097A28D /* Build configuration list for PBXNativeTarget "SolvitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60214871AF51BB70097A28D /* Debug */,
+				B60214881AF51BB70097A28D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B60214581AF51BB70097A28D /* Project object */;
+}
