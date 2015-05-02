@@ -14,6 +14,13 @@
 * Getting an API response from the Solvit app
 * Calculating row height, possibly dynamically from slashing horizontally across the screen (fancy)
 
+######Problems:
+* MyScript doesn't play nice
+* Difficulties running recognition on symbols that do not strictly use the MAWMathViewController
+* Calculations to run CDK and parse JSON through networking calls reveal costing us $0.07 per line
+* ATK is horrible
+* SDK requires inquiry
+
 :clap::clap::clap:
 
 ##Objects
