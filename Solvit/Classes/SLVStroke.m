@@ -16,6 +16,7 @@
     
     // Custom init
     self.type = @"stroke";
+    self.row = 1;
     
     return self;
 }

@@ -44,6 +44,8 @@
     // Add the first x and y coordinates to the array.
     [currentStroke.x addObject:[NSNumber numberWithFloat:lastPoint.x]];
     [currentStroke.y addObject:[NSNumber numberWithFloat:lastPoint.y]];
+    
+    NSLog(@"%f, %f", lastPoint.x, lastPoint.y);
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
@@ -70,7 +72,9 @@
     [currentStroke.x addObject:[NSNumber numberWithFloat:currentPoint.x]];
     [currentStroke.y addObject:[NSNumber numberWithFloat:currentPoint.y]];
     
+    
     lastPoint = currentPoint;
+        NSLog(@"%f, %f", lastPoint.x, lastPoint.y);
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
