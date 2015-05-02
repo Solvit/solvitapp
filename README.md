@@ -4,13 +4,11 @@
 
 Current version name: Velma
 
-Current features implemented:
-* Stroke object nativized from JSON format
+Current features implemented: * Stroke object nativized from JSON format
 * Drawing works
 * Strokes are tallied up into an app wide array
 
-Future features:
-* Sending data to the Solvit app
+Future features: * Sending data to the Solvit app
 * Getting an API response from the Solvit app
 * Calculating row height, possibly dynamically from slashing horizontally across the screen (fancy)
 
