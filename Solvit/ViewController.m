@@ -23,7 +23,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    MAWMathViewController *view = [[MAWMathViewController alloc] init];
+    //[view configureWithResources:@[@"math-ak.res", @"math-grm-maw.res"] certificate:[NSData dataWithBytes:myCertificate.bytes length:myCertificate.length]];
+    view.delegate = self;
+    
     // Allocate the currentStroke object that handles processing of the current stroke, and the strokes array that holds all strokes.
     currentStroke = [[SLVStroke alloc] init];
     strokes = [[NSMutableArray alloc] init];
@@ -44,8 +47,6 @@
     // Add the first x and y coordinates to the array.
     [currentStroke.x addObject:[NSNumber numberWithFloat:lastPoint.x]];
     [currentStroke.y addObject:[NSNumber numberWithFloat:lastPoint.y]];
-    
-    NSLog(@"%f, %f", lastPoint.x, lastPoint.y);
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
@@ -74,7 +75,6 @@
     
     
     lastPoint = currentPoint;
-        NSLog(@"%f, %f", lastPoint.x, lastPoint.y);
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {

@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 /**
  * A MAWSymbol represents a mathematical symbol that can be used for importing and exporting

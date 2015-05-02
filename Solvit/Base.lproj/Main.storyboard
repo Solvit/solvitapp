@@ -16,20 +16,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vtV-Rn-rhC">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oYr-Ca-Ckb">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="vtV-Rn-rhC" secondAttribute="trailing" id="4cg-ZG-xRp"/>
-                            <constraint firstItem="vtV-Rn-rhC" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" id="Pje-45-AK9"/>
-                            <constraint firstItem="vtV-Rn-rhC" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="e6C-vh-WG8"/>
-                            <constraint firstItem="vtV-Rn-rhC" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="jLj-QT-AR8"/>
+                            <constraint firstItem="oYr-Ca-Ckb" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="HeI-u4-65g"/>
+                            <constraint firstItem="oYr-Ca-Ckb" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" id="KAV-eI-oEA"/>
+                            <constraint firstAttribute="trailing" secondItem="oYr-Ca-Ckb" secondAttribute="trailing" id="Lhh-Jp-szj"/>
+                            <constraint firstItem="oYr-Ca-Ckb" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="go2-z4-vd9"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="drawingBoard" destination="vtV-Rn-rhC" id="GL4-0f-exI"/>
+                        <outlet property="drawingBoard" destination="oYr-Ca-Ckb" id="5vB-2K-kQY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
