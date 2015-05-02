@@ -112,4 +112,26 @@
 - (IBAction)clearPressed:(id)sender {
     [self clearAll];
 }
+
+- (IBAction)solvePressed:(id)sender {
+    // Output JSON
+    NSMutableString *outputJSON = [[NSMutableString alloc] init];
+    [outputJSON appendString:@"stroke = {\n"];
+    for (SLVStroke *stroke in strokes) {
+        [outputJSON appendString:[NSString stringWithFormat:@"\"type\" : \"%@\",\n", stroke.type]];
+        [outputJSON appendString:[NSString stringWithFormat:@"\"row\" : \"%i\",\n", stroke.row]];
+        [outputJSON appendString:@"\"x\" : ["];
+        for (int i = 0; i < stroke.x.count-1; i++) {
+            [outputJSON appendString:[NSString stringWithFormat:@"\"%@\",", [stroke.x objectAtIndex:i]]];
+        }
+        [outputJSON appendString:[NSString stringWithFormat:@"\"%@\"],", [stroke.x objectAtIndex:stroke.x.count-1]]];
+        [outputJSON appendString:@"\"y\" : ["];
+        for (int i = 0; i < stroke.y.count-1; i++) {
+            [outputJSON appendString:[NSString stringWithFormat:@"\"%@\",", [stroke.y objectAtIndex:i]]];
+        }
+        [outputJSON appendString:[NSString stringWithFormat:@"\"%@\"],", [stroke.y objectAtIndex:stroke.y.count-1]]];
+        [outputJSON appendString:@"};"];
+    }
+    NSLog(@"%@", outputJSON);
+}
 @end

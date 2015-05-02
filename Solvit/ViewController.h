@@ -14,6 +14,7 @@
 @property (strong, nonatomic) IBOutlet UIImageView *drawingBoard;
 
 - (IBAction)clearPressed:(id)sender;
+- (IBAction)solvePressed:(id)sender;
 
 @end
 
