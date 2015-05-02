@@ -19,12 +19,25 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oYr-Ca-Ckb">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N5A-uV-gpP">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="Item" id="GhF-9n-Fiv">
+                                        <connections>
+                                            <action selector="clearPressed:" destination="vXZ-lx-hvc" id="Zga-mn-fij"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="oYr-Ca-Ckb" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="HeI-u4-65g"/>
                             <constraint firstItem="oYr-Ca-Ckb" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" id="KAV-eI-oEA"/>
                             <constraint firstAttribute="trailing" secondItem="oYr-Ca-Ckb" secondAttribute="trailing" id="Lhh-Jp-szj"/>
+                            <constraint firstItem="N5A-uV-gpP" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" id="MMz-Ji-fqT"/>
+                            <constraint firstItem="N5A-uV-gpP" firstAttribute="trailing" secondItem="oYr-Ca-Ckb" secondAttribute="trailing" id="d6e-nm-sEg"/>
+                            <constraint firstItem="N5A-uV-gpP" firstAttribute="leading" secondItem="oYr-Ca-Ckb" secondAttribute="leading" id="dMO-Wq-IGw"/>
                             <constraint firstItem="oYr-Ca-Ckb" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="go2-z4-vd9"/>
                         </constraints>
                     </view>

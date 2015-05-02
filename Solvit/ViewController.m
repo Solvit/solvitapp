@@ -23,12 +23,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    MAWMathViewController *view = [[MAWMathViewController alloc] init];
-    //[view configureWithResources:@[@"math-ak.res", @"math-grm-maw.res"] certificate:[NSData dataWithBytes:myCertificate.bytes length:myCertificate.length]];
-    view.delegate = self;
     
-    // Allocate the currentStroke object that handles processing of the current stroke, and the strokes array that holds all strokes.
-    currentStroke = [[SLVStroke alloc] init];
+    // Allocate the strokes array that holds all strokes.
     strokes = [[NSMutableArray alloc] init];
 }
 
@@ -43,6 +39,9 @@
     
     UITouch *touch = [touches anyObject];
     lastPoint = [touch locationInView:self.view];
+    
+    // Allocate the stroke
+    currentStroke = [[SLVStroke alloc] init];
     
     // Add the first x and y coordinates to the array.
     [currentStroke.x addObject:[NSNumber numberWithFloat:lastPoint.x]];
@@ -73,7 +72,6 @@
     [currentStroke.x addObject:[NSNumber numberWithFloat:currentPoint.x]];
     [currentStroke.y addObject:[NSNumber numberWithFloat:currentPoint.y]];
     
-    
     lastPoint = currentPoint;
 }
 
@@ -96,6 +94,8 @@
     [strokes addObject:currentStroke];
     NSLog(@"Strokes on screen: %li", [strokes count]);
     
+    // Destroy stroke
+    currentStroke = nil;
     
     //Wrap stroke in SLVStroke object and add to strokes array. Send array to Solvit for processing.
     
@@ -103,7 +103,13 @@
 
 - (void)clearAll {
     // Clears everything on screen and in memory.
-    
+    [strokes removeAllObjects];
+    self.drawingBoard.image = nil;
+    NSLog(@"Cleared.");
+    NSLog(@"Strokes on screen: %li", [strokes count]);
 }
 
+- (IBAction)clearPressed:(id)sender {
+    [self clearAll];
+}
 @end
