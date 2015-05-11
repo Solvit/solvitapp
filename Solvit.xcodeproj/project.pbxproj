@@ -14,6 +14,17 @@
 		B60214711AF51BB70097A28D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60214701AF51BB70097A28D /* Images.xcassets */; };
 		B60214741AF51BB70097A28D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60214721AF51BB70097A28D /* LaunchScreen.xib */; };
 		B60214801AF51BB70097A28D /* SolvitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B602147F1AF51BB70097A28D /* SolvitTests.m */; };
+		B602148C1AF5235A0097A28D /* SLVStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = B602148B1AF5235A0097A28D /* SLVStroke.m */; };
+		B60214951AF53E120097A28D /* AtkMaw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B602148F1AF53E120097A28D /* AtkMaw.framework */; };
+		B60214961AF53E120097A28D /* libMyScript2D.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B60214901AF53E120097A28D /* libMyScript2D.a */; };
+		B60214971AF53E130097A28D /* libMyScriptEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B60214911AF53E120097A28D /* libMyScriptEngine.a */; };
+		B60214981AF53E130097A28D /* libMyScriptMath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B60214921AF53E120097A28D /* libMyScriptMath.a */; };
+		B60214991AF53E130097A28D /* libStylusCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B60214931AF53E120097A28D /* libStylusCore.a */; };
+		B602149F1AF53F240097A28D /* math-ak.res in Resources */ = {isa = PBXBuildFile; fileRef = B602149C1AF53F240097A28D /* math-ak.res */; };
+		B60214A01AF53F240097A28D /* math-grm-maw.def in Resources */ = {isa = PBXBuildFile; fileRef = B602149D1AF53F240097A28D /* math-grm-maw.def */; };
+		B60214A11AF53F240097A28D /* math-grm-maw.res in Resources */ = {isa = PBXBuildFile; fileRef = B602149E1AF53F240097A28D /* math-grm-maw.res */; };
+		B60214B81AF540CD0097A28D /* AtkMaw.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B60214B71AF540CD0097A28D /* AtkMaw.bundle */; };
+		B60214BA1AF5528B0097A28D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60214B91AF5528B0097A28D /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +51,19 @@
 		B60214791AF51BB70097A28D /* SolvitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolvitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B602147E1AF51BB70097A28D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B602147F1AF51BB70097A28D /* SolvitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolvitTests.m; sourceTree = "<group>"; };
+		B602148A1AF5235A0097A28D /* SLVStroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLVStroke.h; path = Classes/SLVStroke.h; sourceTree = "<group>"; };
+		B602148B1AF5235A0097A28D /* SLVStroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLVStroke.m; path = Classes/SLVStroke.m; sourceTree = "<group>"; };
+		B602148F1AF53E120097A28D /* AtkMaw.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AtkMaw.framework; sourceTree = "<group>"; };
+		B60214901AF53E120097A28D /* libMyScript2D.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMyScript2D.a; sourceTree = "<group>"; };
+		B60214911AF53E120097A28D /* libMyScriptEngine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMyScriptEngine.a; sourceTree = "<group>"; };
+		B60214921AF53E120097A28D /* libMyScriptMath.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMyScriptMath.a; sourceTree = "<group>"; };
+		B60214931AF53E120097A28D /* libStylusCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libStylusCore.a; sourceTree = "<group>"; };
+		B602149C1AF53F240097A28D /* math-ak.res */ = {isa = PBXFileReference; lastKnownFileType = file; path = "math-ak.res"; sourceTree = "<group>"; };
+		B602149D1AF53F240097A28D /* math-grm-maw.def */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "math-grm-maw.def"; sourceTree = "<group>"; };
+		B602149E1AF53F240097A28D /* math-grm-maw.res */ = {isa = PBXFileReference; lastKnownFileType = file; path = "math-grm-maw.res"; sourceTree = "<group>"; };
+		B60214B71AF540CD0097A28D /* AtkMaw.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AtkMaw.bundle; path = "MyScript Frameworks/AtkMaw.bundle"; sourceTree = SOURCE_ROOT; };
+		B60214B91AF5528B0097A28D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B60214BC1AF554680097A28D /* MyCertificate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCertificate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +71,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B60214BA1AF5528B0097A28D /* SystemConfiguration.framework in Frameworks */,
+				B60214981AF53E130097A28D /* libMyScriptMath.a in Frameworks */,
+				B60214961AF53E120097A28D /* libMyScript2D.a in Frameworks */,
+				B60214991AF53E130097A28D /* libStylusCore.a in Frameworks */,
+				B60214971AF53E130097A28D /* libMyScriptEngine.a in Frameworks */,
+				B60214951AF53E120097A28D /* AtkMaw.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +96,7 @@
 				B60214621AF51BB70097A28D /* Solvit */,
 				B602147C1AF51BB70097A28D /* SolvitTests */,
 				B60214611AF51BB70097A28D /* Products */,
+				B602148D1AF53E120097A28D /* MyScript Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +112,8 @@
 		B60214621AF51BB70097A28D /* Solvit */ = {
 			isa = PBXGroup;
 			children = (
+				B60214BB1AF554590097A28D /* Certificate */,
+				B60214891AF5233D0097A28D /* Classes */,
 				B60214671AF51BB70097A28D /* AppDelegate.h */,
 				B60214681AF51BB70097A28D /* AppDelegate.m */,
 				B602146A1AF51BB70097A28D /* ViewController.h */,
@@ -117,6 +150,56 @@
 				B602147E1AF51BB70097A28D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B60214891AF5233D0097A28D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B602148A1AF5235A0097A28D /* SLVStroke.h */,
+				B602148B1AF5235A0097A28D /* SLVStroke.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		B602148D1AF53E120097A28D /* MyScript Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B60214B71AF540CD0097A28D /* AtkMaw.bundle */,
+				B60214B91AF5528B0097A28D /* SystemConfiguration.framework */,
+				B602148F1AF53E120097A28D /* AtkMaw.framework */,
+				B60214901AF53E120097A28D /* libMyScript2D.a */,
+				B60214911AF53E120097A28D /* libMyScriptEngine.a */,
+				B60214921AF53E120097A28D /* libMyScriptMath.a */,
+				B60214931AF53E120097A28D /* libStylusCore.a */,
+				B602149A1AF53F240097A28D /* Resources */,
+			);
+			path = "MyScript Frameworks";
+			sourceTree = "<group>";
+		};
+		B602149A1AF53F240097A28D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B602149B1AF53F240097A28D /* Recognition */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B602149B1AF53F240097A28D /* Recognition */ = {
+			isa = PBXGroup;
+			children = (
+				B602149C1AF53F240097A28D /* math-ak.res */,
+				B602149D1AF53F240097A28D /* math-grm-maw.def */,
+				B602149E1AF53F240097A28D /* math-grm-maw.res */,
+			);
+			path = Recognition;
+			sourceTree = "<group>";
+		};
+		B60214BB1AF554590097A28D /* Certificate */ = {
+			isa = PBXGroup;
+			children = (
+				B60214BC1AF554680097A28D /* MyCertificate.h */,
+			);
+			name = Certificate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +283,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B602146F1AF51BB70097A28D /* Main.storyboard in Resources */,
+				B60214B81AF540CD0097A28D /* AtkMaw.bundle in Resources */,
 				B60214741AF51BB70097A28D /* LaunchScreen.xib in Resources */,
+				B60214A01AF53F240097A28D /* math-grm-maw.def in Resources */,
+				B602149F1AF53F240097A28D /* math-ak.res in Resources */,
 				B60214711AF51BB70097A28D /* Images.xcassets in Resources */,
+				B60214A11AF53F240097A28D /* math-grm-maw.res in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +309,7 @@
 				B602146C1AF51BB70097A28D /* ViewController.m in Sources */,
 				B60214691AF51BB70097A28D /* AppDelegate.m in Sources */,
 				B60214661AF51BB70097A28D /* main.m in Sources */,
+				B602148C1AF5235A0097A28D /* SLVStroke.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,9 +435,36 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyScript",
+					Frameworks,
+				);
 				INFOPLIST_FILE = Solvit/Info.plist;
+				LD_MAP_FILE_PATH = "$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyScript\\ Frameworks",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-ObjC",
+					"/usr/lib/libstdc++.dylib",
+					"-Wl,-U,_MyScript2D",
+					"-Wl,-U,_MyScriptAnalyzer",
+					"-Wl,-U,_MyScriptDocument",
+					"-Wl,-U,_MyScriptGesture",
+					"-Wl,-U,_MyScriptInk",
+					"-Wl,-U,_MyScriptInkSearch",
+					"-Wl,-U,_MyScriptMath",
+					"-Wl,-U,_MyScriptPrediction",
+					"-Wl,-U,_MyScriptMusic",
+					"-Wl,-U,_MyScriptText",
+					"-Wl,-U,_MyScriptShape",
+					"-Wl,-U,_MyScriptWriterAdaptation",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -357,9 +472,36 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyScript",
+					Frameworks,
+				);
 				INFOPLIST_FILE = Solvit/Info.plist;
+				LD_MAP_FILE_PATH = "$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyScript\\ Frameworks",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-ObjC",
+					"/usr/lib/libstdc++.dylib",
+					"-Wl,-U,_MyScript2D",
+					"-Wl,-U,_MyScriptAnalyzer",
+					"-Wl,-U,_MyScriptDocument",
+					"-Wl,-U,_MyScriptGesture",
+					"-Wl,-U,_MyScriptInk",
+					"-Wl,-U,_MyScriptInkSearch",
+					"-Wl,-U,_MyScriptMath",
+					"-Wl,-U,_MyScriptMusic",
+					"-Wl,-U,_MyScriptPrediction",
+					"-Wl,-U,_MyScriptShape",
+					"-Wl,-U,_MyScriptText",
+					"-Wl,-U,_MyScriptWriterAdaptation",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
